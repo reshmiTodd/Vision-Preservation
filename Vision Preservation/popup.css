@@ -1,0 +1,35 @@
+*{
+  font-family: Comfortaa;
+  font-weight: bold;
+}
+.title {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+  }
+  
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 16px;
+}
+  
+.my-button {
+    background-color: #CCCCFF;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+    margin-right: 8px;
+}
+  
+.my-button:last-child {
+    margin-right: 0;
+}
+  
+.my-button:hover {
+    transform: translateY(-2px);
+    transition: transform 0.2s ease-out;
+}
